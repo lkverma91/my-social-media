@@ -1,0 +1,84 @@
+.user-card {
+  background: #fff;
+  border-radius: 14px;
+  padding: 18px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  transition: transform 0.15s;
+}
+
+.user-card:hover {
+  transform: translateY(-1px);
+}
+
+.user-card-info {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex: 1;
+}
+
+.avatar-md {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #6C63FF, #e94590);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 20px;
+  flex-shrink: 0;
+}
+
+.user-card-name {
+  display: block;
+  font-weight: 600;
+  font-size: 15px;
+  color: #1a1a2e;
+}
+
+.user-card-bio {
+  display: block;
+  font-size: 13px;
+  color: #6b7280;
+  margin-top: 2px;
+}
+
+.user-card-stats {
+  display: block;
+  font-size: 12px;
+  color: #9ca3af;
+  margin-top: 4px;
+}
+
+.btn-follow {
+  padding: 8px 24px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  background: linear-gradient(135deg, #6C63FF, #5a52d5);
+  color: #fff;
+  transition: transform 0.15s, box-shadow 0.15s;
+  flex-shrink: 0;
+}
+
+.btn-follow:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(108, 99, 255, 0.3);
+}
+
+.btn-follow.following {
+  background: #f3f4f6;
+  color: #6b7280;
+}
+
+.btn-follow.following:hover {
+  background: #fef2f2;
+  color: #dc2626;
+  box-shadow: none;
+}

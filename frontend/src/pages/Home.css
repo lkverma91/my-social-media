@@ -1,0 +1,31 @@
+.home-page {
+  max-width: 100%;
+}
+
+.loading-state {
+  text-align: center;
+  padding: 60px 20px;
+  color: #9ca3af;
+  font-size: 16px;
+}
+
+.empty-feed {
+  text-align: center;
+  padding: 60px 20px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+}
+
+.empty-feed h2 {
+  font-size: 20px;
+  color: #374151;
+  margin-bottom: 8px;
+}
+
+.empty-feed p {
+  color: #9ca3af;
+  font-size: 15px;
+  max-width: 360px;
+  margin: 0 auto;
+}
